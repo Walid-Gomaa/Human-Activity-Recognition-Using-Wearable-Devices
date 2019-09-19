@@ -1,0 +1,40 @@
+Confusion Matrix and Statistics
+
+                  
+                   descend_stairs drink_from_glass climb_stairs brush_teeth comb_hair
+  descend_stairs               14                0            3           0         1
+  drink_from_glass              0               17            0           0         0
+  climb_stairs                  0                0           11           0         0
+  brush_teeth                   0                0            0          16         0
+  comb_hair                     0                0            0           0        16
+
+Overall Statistics
+                                          
+               Accuracy : 0.9487          
+                 95% CI : (0.8739, 0.9859)
+    No Information Rate : 0.2179          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9358          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: descend_stairs Class: drink_from_glass Class: climb_stairs Class: brush_teeth
+Sensitivity                         1.0000                  1.0000              0.7857             1.0000
+Specificity                         0.9375                  1.0000              1.0000             1.0000
+Pos Pred Value                      0.7778                  1.0000              1.0000             1.0000
+Neg Pred Value                      1.0000                  1.0000              0.9552             1.0000
+Prevalence                          0.1795                  0.2179              0.1795             0.2051
+Detection Rate                      0.1795                  0.2179              0.1410             0.2051
+Detection Prevalence                0.2308                  0.2179              0.1410             0.2051
+Balanced Accuracy                   0.9688                  1.0000              0.8929             1.0000
+                     Class: comb_hair
+Sensitivity                    0.9412
+Specificity                    1.0000
+Pos Pred Value                 1.0000
+Neg Pred Value                 0.9839
+Prevalence                     0.2179
+Detection Rate                 0.2051
+Detection Prevalence           0.2051
+Balanced Accuracy              0.9706

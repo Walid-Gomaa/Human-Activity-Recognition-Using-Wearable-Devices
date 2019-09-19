@@ -1,0 +1,68 @@
+Confusion Matrix and Statistics
+
+                         
+                          comb_hair pour_water_into_glass getup_from_bed eat_with_fork_and_knife sitdown_on_chair brush_teeth
+  comb_hair                      17                     0              0                       0                1           0
+  pour_water_into_glass           0                    16              1                       0                0           0
+  getup_from_bed                  0                     1              7                       0                0           0
+  eat_with_fork_and_knife         0                     0              0                      14                0           0
+  sitdown_on_chair                0                     0              1                       0               16           0
+  brush_teeth                     0                     0              0                       0                0          16
+  descend_stairs                  0                     0              0                       0                0           0
+  climb_stairs                    0                     0              0                       0                0           0
+  liedown_on_bed                  0                     0              1                       0                0           0
+  eat_with_spoon                  0                     0              0                       0                0           0
+  drink_from_glass                0                     0              0                       0                0           0
+                         
+                          descend_stairs climb_stairs liedown_on_bed eat_with_spoon drink_from_glass
+  comb_hair                            0            0              0              0                0
+  pour_water_into_glass                0            0              0              0                2
+  getup_from_bed                       0            0              0              0                0
+  eat_with_fork_and_knife              0            0              0              0                0
+  sitdown_on_chair                     0            1              2              0                1
+  brush_teeth                          0            0              0              0                0
+  descend_stairs                      13            3              0              0                0
+  climb_stairs                         1           10              0              0                0
+  liedown_on_bed                       0            0              8              0                0
+  eat_with_spoon                       0            0              0             13                0
+  drink_from_glass                     0            0              0              0               14
+
+Overall Statistics
+                                          
+               Accuracy : 0.9057          
+                 95% CI : (0.8492, 0.9462)
+    No Information Rate : 0.1069          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.8958          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: comb_hair Class: pour_water_into_glass Class: getup_from_bed Class: eat_with_fork_and_knife
+Sensitivity                    1.0000                       0.9412               0.70000                        1.00000
+Specificity                    0.9930                       0.9789               0.99329                        1.00000
+Pos Pred Value                 0.9444                       0.8421               0.87500                        1.00000
+Neg Pred Value                 1.0000                       0.9929               0.98013                        1.00000
+Prevalence                     0.1069                       0.1069               0.06289                        0.08805
+Detection Rate                 0.1069                       0.1006               0.04403                        0.08805
+Detection Prevalence           0.1132                       0.1195               0.05031                        0.08805
+Balanced Accuracy              0.9965                       0.9600               0.84664                        1.00000
+                     Class: sitdown_on_chair Class: brush_teeth Class: descend_stairs Class: climb_stairs Class: liedown_on_bed
+Sensitivity                           0.9412             1.0000               0.92857             0.71429               0.80000
+Specificity                           0.9648             1.0000               0.97931             0.99310               0.99329
+Pos Pred Value                        0.7619             1.0000               0.81250             0.90909               0.88889
+Neg Pred Value                        0.9928             1.0000               0.99301             0.97297               0.98667
+Prevalence                            0.1069             0.1006               0.08805             0.08805               0.06289
+Detection Rate                        0.1006             0.1006               0.08176             0.06289               0.05031
+Detection Prevalence                  0.1321             0.1006               0.10063             0.06918               0.05660
+Balanced Accuracy                     0.9530             1.0000               0.95394             0.85369               0.89664
+                     Class: eat_with_spoon Class: drink_from_glass
+Sensitivity                        1.00000                 0.82353
+Specificity                        1.00000                 1.00000
+Pos Pred Value                     1.00000                 1.00000
+Neg Pred Value                     1.00000                 0.97931
+Prevalence                         0.08176                 0.10692
+Detection Rate                     0.08176                 0.08805
+Detection Prevalence               0.08176                 0.08805
+Balanced Accuracy                  1.00000                 0.91176

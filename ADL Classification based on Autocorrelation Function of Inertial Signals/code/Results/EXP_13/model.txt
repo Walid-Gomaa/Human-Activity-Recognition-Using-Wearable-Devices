@@ -1,0 +1,24 @@
+Random Forest 
+
+396 samples
+ 99 predictor
+ 14 classes: 'brush_teeth', 'climb_stairs', 'comb_hair', 'descend_stairs', 'drink_from_glass', 'eat_with_fork_and_knife', 'eat_with_spoon', 'getup_from_bed', 'liedown_on_bed', 'pour_water_into_glass', 'sitdown_on_chair', 'standup_from_chair', 'use_telephone', 'walk' 
+
+No pre-processing
+Resampling: Cross-Validated (5 fold, repeated 5 times) 
+Summary of sample sizes: 315, 317, 316, 317, 319, 315, ... 
+Resampling results across tuning parameters:
+
+  mtry  Accuracy   Kappa    
+   2    0.8435630  0.8311873
+  14    0.8242451  0.8103154
+  26    0.8165770  0.8020342
+  38    0.8160622  0.8014614
+  50    0.8110759  0.7961190
+  62    0.8074801  0.7922039
+  74    0.8060285  0.7906270
+  86    0.8060178  0.7906197
+  99    0.8014072  0.7856396
+
+Accuracy was used to select the optimal model using  the largest value.
+The final value used for the model was mtry = 2. 

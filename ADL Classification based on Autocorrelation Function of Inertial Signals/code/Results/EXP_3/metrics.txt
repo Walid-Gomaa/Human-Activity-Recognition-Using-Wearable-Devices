@@ -1,0 +1,30 @@
+Confusion Matrix and Statistics
+
+                
+                 brush_teeth climb_stairs comb_hair descend_stairs
+  brush_teeth             16            0         0              0
+  climb_stairs             0           13         0              5
+  comb_hair                0            0        17              0
+  descend_stairs           0            1         0              9
+
+Overall Statistics
+                                         
+               Accuracy : 0.9016         
+                 95% CI : (0.7981, 0.963)
+    No Information Rate : 0.2787         
+    P-Value [Acc > NIR] : < 2.2e-16      
+                                         
+                  Kappa : 0.8685         
+ Mcnemar's Test P-Value : NA             
+
+Statistics by Class:
+
+                     Class: brush_teeth Class: climb_stairs Class: comb_hair Class: descend_stairs
+Sensitivity                      1.0000              0.9286           1.0000                0.6429
+Specificity                      1.0000              0.8936           1.0000                0.9787
+Pos Pred Value                   1.0000              0.7222           1.0000                0.9000
+Neg Pred Value                   1.0000              0.9767           1.0000                0.9020
+Prevalence                       0.2623              0.2295           0.2787                0.2295
+Detection Rate                   0.2623              0.2131           0.2787                0.1475
+Detection Prevalence             0.2623              0.2951           0.2787                0.1639
+Balanced Accuracy                1.0000              0.9111           1.0000                0.8108

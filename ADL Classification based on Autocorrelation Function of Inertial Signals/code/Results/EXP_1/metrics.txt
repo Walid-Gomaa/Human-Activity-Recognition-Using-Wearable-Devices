@@ -1,0 +1,26 @@
+Confusion Matrix and Statistics
+
+              
+               brush_teeth climb_stairs
+  brush_teeth           16            0
+  climb_stairs           0           14
+                                     
+               Accuracy : 1          
+                 95% CI : (0.8843, 1)
+    No Information Rate : 0.5333     
+    P-Value [Acc > NIR] : 6.456e-09  
+                                     
+                  Kappa : 1          
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.5333     
+         Detection Rate : 0.5333     
+   Detection Prevalence : 0.5333     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : brush_teeth
+                                     

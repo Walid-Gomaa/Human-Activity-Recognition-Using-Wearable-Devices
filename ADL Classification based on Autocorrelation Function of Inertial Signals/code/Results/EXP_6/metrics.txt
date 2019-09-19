@@ -1,0 +1,42 @@
+Confusion Matrix and Statistics
+
+                         
+                          brush_teeth climb_stairs drink_from_glass eat_with_fork_and_knife descend_stairs comb_hair eat_with_spoon
+  brush_teeth                      16            0                0                       1              0         0              0
+  climb_stairs                      0           11                0                       0              1         0              0
+  drink_from_glass                  0            0               16                       0              0         0              0
+  eat_with_fork_and_knife           0            0                0                      12              0         0              0
+  descend_stairs                    0            2                0                       0             13         0              0
+  comb_hair                         0            0                0                       1              0        17              0
+  eat_with_spoon                    0            1                1                       0              0         0             13
+
+Overall Statistics
+                                          
+               Accuracy : 0.9333          
+                 95% CI : (0.8675, 0.9728)
+    No Information Rate : 0.1619          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.9221          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: brush_teeth Class: climb_stairs Class: drink_from_glass Class: eat_with_fork_and_knife Class: descend_stairs
+Sensitivity                      1.0000              0.7857                  0.9412                         0.8571                0.9286
+Specificity                      0.9888              0.9890                  1.0000                         1.0000                0.9780
+Pos Pred Value                   0.9412              0.9167                  1.0000                         1.0000                0.8667
+Neg Pred Value                   1.0000              0.9677                  0.9888                         0.9785                0.9889
+Prevalence                       0.1524              0.1333                  0.1619                         0.1333                0.1333
+Detection Rate                   0.1524              0.1048                  0.1524                         0.1143                0.1238
+Detection Prevalence             0.1619              0.1143                  0.1524                         0.1143                0.1429
+Balanced Accuracy                0.9944              0.8874                  0.9706                         0.9286                0.9533
+                     Class: comb_hair Class: eat_with_spoon
+Sensitivity                    1.0000                1.0000
+Specificity                    0.9886                0.9783
+Pos Pred Value                 0.9444                0.8667
+Neg Pred Value                 1.0000                1.0000
+Prevalence                     0.1619                0.1238
+Detection Rate                 0.1619                0.1238
+Detection Prevalence           0.1714                0.1429
+Balanced Accuracy              0.9943                0.9891

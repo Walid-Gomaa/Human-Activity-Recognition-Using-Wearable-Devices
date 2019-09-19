@@ -1,0 +1,24 @@
+Random Forest 
+
+90 samples
+99 predictors
+ 3 classes: 'brush_teeth', 'climb_stairs', 'comb_hair' 
+
+No pre-processing
+Resampling: Cross-Validated (5 fold, repeated 5 times) 
+Summary of sample sizes: 71, 73, 72, 71, 73, 73, ... 
+Resampling results across tuning parameters:
+
+  mtry  Accuracy   Kappa    
+   2    0.9889921  0.9832696
+  14    0.9976471  0.9964767
+  26    0.9954248  0.9931434
+  38    0.9976471  0.9964767
+  50    0.9976471  0.9964767
+  62    0.9977778  0.9966667
+  74    0.9955556  0.9933333
+  86    0.9976471  0.9964767
+  99    0.9976471  0.9964767
+
+Accuracy was used to select the optimal model using  the largest value.
+The final value used for the model was mtry = 62. 

@@ -1,0 +1,7 @@
+The raw data used is: triaxial accelerometer data and the three-direction angular velocity, and the three orientations (rolll, pitch, yaw).
+We use a set of 14 activities of ADL (activities of daily living).
+
+We use the autocorrelation function where lag is entered as an input parameter from the user.
+For each of the three acceleromter directions and each of the three angular velocity directions we compute the acf and combine them into one long vector that represents the feature vector for the given sample.
+
+THE LAG USIED IS: 10.
