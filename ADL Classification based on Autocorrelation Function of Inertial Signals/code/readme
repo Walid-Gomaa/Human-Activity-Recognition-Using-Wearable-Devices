@@ -5,3 +5,7 @@ We use the autocorrelation function where lag is entered as an input parameter f
 For each of the three acceleromter directions and each of the three angular velocity directions we compute the acf and combine them into one long vector that represents the feature vector for the given sample.
 
 THE LAG USIED IS: 10.
+
+```{r}
+x <- 8
+```
