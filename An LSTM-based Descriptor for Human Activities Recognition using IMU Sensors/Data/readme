@@ -1,0 +1,3 @@
+EJUST-ADL-2 dataset splitted into severl zip files.
+
+Sixteen subjects (9 females and 7 males) are volunteered to record activities by wearing an Apple watch on the right wrist. Each subject repeats the same action about ten times on average. So, we have 160 sample for each activity on average. Volunteers ages range from 20 to 55 years old with weights range from 55 kg to 95 kg. The raw signals contain information about 3D angular velocity, 3D orientation (roll, pitch, and yaw), 3D gravity components, and 3D user acceleration where the sampling frequency is 50 Hz. We collected our dataset using Apple watch series one. It weighs only about thirty grams and it has a Dual-Core processor, 8 GB internal storage, and 512 MB RAM.
